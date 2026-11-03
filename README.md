@@ -1,30 +1,43 @@
-# Assessment 01 – Data Science Fundamentals
+# Assessment 02 – Hands-On Data Lab Implementation
 
-**Internship:** Data Analyst Intern – Yuva Intern by Henry Harvin  
-**Assessment:** Data Science Fundamentals
+## Overview
+A practical Python data analysis lab covering environment setup, data loading, inspection, cleaning, manipulation, visualization, and basic analysis.
 
-## Objective
-Demonstrate foundational understanding of Python basics, statistical foundations, data types, core data science concepts and industry best practices.
+## Tools
+Python 3, Jupyter Notebook, Pandas, NumPy, Matplotlib, and Seaborn.
 
-## Contents
-- `Data_Science_Fundamentals_Assessment.docx` – written assessment report
-- `notebooks/Data_Science_Fundamentals.ipynb` – practical analysis notebook
-- `python/python_basics.py` – Python fundamentals examples
-- `python/statistical_calculations.py` – descriptive statistics examples
-- `dataset/student_performance.csv` – simulated educational dataset
-- `requirements.txt` – Python dependencies
+## Structure
+- `data/`: illustrative sales CSV
+- `notebooks/`: step-by-step Jupyter analysis
+- `python/`: reusable Python analysis script
+- `outputs/`: generated analysis files
 
-## Practical dataset
-The included student performance data is synthetic and created for demonstration. It contains 20 rows and 8 columns. It is not real student information.
+## Setup
+```bash
+python -m venv .venv
+```
+Windows activation:
+```bash
+.venv\Scripts\activate
+```
+Install dependencies and launch:
+```bash
+pip install -r requirements.txt
+jupyter notebook
+```
+Open `notebooks/Hands_On_Data_Lab.ipynb` and run cells from top to bottom.
 
-## Run the notebook
-1. Install dependencies: `pip install -r requirements.txt`
-2. Open the notebook in Jupyter.
-3. Run cells from top to bottom.
-4. If needed, adjust the CSV path to `dataset/student_performance.csv` from the assessment root.
+## Exercises
+1. Load and inspect the dataset.
+2. Check missing values and duplicates.
+3. Clean and validate records.
+4. Filter, sort, group, and aggregate data.
+5. Calculate summary metrics and correlations.
+6. Create bar, line, and scatter plots.
+7. Export the cleaned dataset.
 
-## Important scope note
-The internship brief supplied for this assessment states broad objectives but does not include exact questions, a mandatory file format or a specified dataset. This work is a structured response to the stated objectives, not an official question paper. Confirm submission requirements with the internship coordinator.
+## Dataset note
+The included 20-row sales dataset is synthetic and made for demonstration. It was not supplied by the internship provider. Replace it with an assigned dataset if one is provided.
 
-## Limitations
-The sample is small and synthetic. Its results are educational examples only and cannot support real-world conclusions about student performance.
+## Before submission
+Run the notebook in your own environment, verify outputs, and add your name and submission date to the report. The small synthetic dataset demonstrates methods only and does not support real business conclusions.
