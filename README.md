@@ -1,43 +1,18 @@
-# Assessment 02 – Hands-On Data Lab Implementation
+# Assessment 04 – Data Science Tools and Libraries
 
-## Overview
-A practical Python data analysis lab covering environment setup, data loading, inspection, cleaning, manipulation, visualization, and basic analysis.
+This portfolio package demonstrates practical use of Python, Pandas, NumPy, Matplotlib, Seaborn, SQL/MySQL, Jupyter Notebook, Power BI and GitHub, using the UPI Transaction Risk Intelligence project as its foundation.
 
-## Tools
-Python 3, Jupyter Notebook, Pandas, NumPy, Matplotlib, and Seaborn.
-
-## Structure
-- `data/`: illustrative sales CSV
-- `notebooks/`: step-by-step Jupyter analysis
-- `python/`: reusable Python analysis script
-- `outputs/`: generated analysis files
+## Contents
+- `notebooks/assessment_04_tools_practical.ipynb` – practical exercises
+- `python/upi_tools_analysis.py` – reusable Python analysis script
+- `sql/assessment_04_queries.sql` – analytical SQL examples
+- `reports/Assessment_04_Report.docx` – assessment report
 
 ## Setup
-```bash
-python -m venv .venv
-```
-Windows activation:
-```bash
-.venv\Scripts\activate
-```
-Install dependencies and launch:
-```bash
-pip install -r requirements.txt
-jupyter notebook
-```
-Open `notebooks/Hands_On_Data_Lab.ipynb` and run cells from top to bottom.
+Install dependencies with `python -m pip install -r requirements.txt`, then open the notebook in Jupyter and run cells from top to bottom.
 
-## Exercises
-1. Load and inspect the dataset.
-2. Check missing values and duplicates.
-3. Clean and validate records.
-4. Filter, sort, group, and aggregate data.
-5. Calculate summary metrics and correlations.
-6. Create bar, line, and scatter plots.
-7. Export the cleaned dataset.
+The notebook includes a small illustrative dataset so it can run independently. To analyze the full project data, load `data/processed/upi_transactions_risk_scored.csv` from your existing UPI project.
 
-## Dataset note
-The included 20-row sales dataset is synthetic and made for demonstration. It was not supplied by the internship provider. Replace it with an assigned dataset if one is provided.
+**Dataset note:** The associated UPI project uses a synthetic dataset of 250,000 transactions. It is not a verified real-world bank or NPCI transaction extract. Risk tiers are analytical indicators, not confirmed fraud findings.
 
-## Before submission
-Run the notebook in your own environment, verify outputs, and add your name and submission date to the report. The small synthetic dataset demonstrates methods only and does not support real business conclusions.
+Related project: https://github.com/ria-space/UPI-Transaction-Risk-Intelligence

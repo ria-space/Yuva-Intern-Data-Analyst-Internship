@@ -1,5 +1,1 @@
-.venv/
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-.env
+.venv/\nvenv/\n__pycache__/\n*.pyc\n.ipynb_checkpoints/\n.env\n

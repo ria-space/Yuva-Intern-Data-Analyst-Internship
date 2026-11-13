@@ -1,6 +1,1 @@
-pandas
-numpy
-matplotlib
-seaborn
-jupyter
-notebook
+pandas\nnumpy\nmatplotlib\nseaborn\njupyter\nipykernel\n
